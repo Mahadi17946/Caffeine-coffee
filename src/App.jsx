@@ -1,7 +1,8 @@
 
 import './App.css'
-import Hero from './component/Hero/Hero'
+
 import Navbar from './component/Navbar/Navbar'
+import Hero from './component/Hero/Hero';
 import Varient from './component/Varient/Varient'
 
 import BestSelling from './component/BestSelling/BestSelling'
