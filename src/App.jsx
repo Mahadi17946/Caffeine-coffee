@@ -2,7 +2,7 @@ import './App.css';
 
 import Navbar from './component/Navbar/Navbar';
 import Hero from './component/Hero/Hero';
-import Variant from './component/Variant/Variant';
+
 
 import BestSelling from './component/BestSelling/BestSelling';
 import Testimonials from './component/Testimonials/Testimonials';
@@ -14,7 +14,7 @@ function App() {
     <>
       <Navbar></Navbar>
       <Hero></Hero>
-      <Variant />
+      
       <BestSelling></BestSelling>
       <Testimonials></Testimonials>
       <Newsletter></Newsletter>
