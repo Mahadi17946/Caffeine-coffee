@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
 
-  // সার্চ ডেমো ডাটা
+
   const menuItems = [
     'Cappuccino',
     'Americano',

@@ -50,7 +50,10 @@ const Testimonials = () => {
   };
 
   return (
-    <section className="bg-[#ebdccb] text-stone-900 py-20 md:py-28 px-6 font-Inter">
+    <section
+      id="about"
+      className="bg-[#ebdccb] text-stone-900 py-20 md:py-28 px-6 font-Inter"
+    >
       <div className="max-w-4xl mx-auto text-center space-y-8">
         {/* Title */}
         <div className="space-y-3">
