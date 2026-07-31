@@ -1,10 +1,9 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
-import verient1 from '../../assets/Varient.png'
-import verient2 from '../../assets/Varient2.png'
+import variant1 from '../../assets/Varient.png';
+import variant2 from '../../assets/Varient2.png';
 
-
-const Varient = () => {
+const Variant = () => {
   return (
     <section className="bg-[#ebdccb] text-stone-900 py-20 px-8">
       <div className="max-w-6xl mx-auto space-y-24">
@@ -13,7 +12,7 @@ const Varient = () => {
           <div className="relative flex justify-center">
             <div className="w-64 h-72 border border-stone-800 p-2 transform -rotate-3 bg-stone-300/30">
               <img
-                src={verient1}
+                src={variant1}
                 alt="Coffee Heaven"
                 className="w-full h-full object-cover"
               />
@@ -50,7 +49,7 @@ const Varient = () => {
           <div className="relative flex justify-center md:order-2 order-1">
             <div className="w-64 h-72 border border-stone-800 p-2 transform rotate-3 bg-stone-300/30">
               <img
-                src={verient2}
+                src={variant2}
                 alt="Jean's Coffee"
                 className="w-full h-full object-cover"
               />
@@ -62,4 +61,4 @@ const Varient = () => {
   );
 };
 
-export default Varient;
+export default Variant;
